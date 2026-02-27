@@ -9,7 +9,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: config.frontendUrl,
+    origin: function (origin, callback) {
+        // Allow all origins dynamically (required when credentials are true and we don't know the exact frontend URL)
+        callback(null, origin || true);
+    },
     credentials: true,
     methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
