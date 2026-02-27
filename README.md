@@ -4,7 +4,7 @@ A full-stack, production-ready Task Management System built with **Next.js**, **
 
 ## 🌐 Live Demo
 
-- **Frontend:** https://task-management-system-frontend.vercel.app  *(Replace with your actual Vercel URL)*
+- **Frontend:** https://task-management-system-one-cyan.vercel.app/dashboard
 - **Backend API:** https://task-management-system-1-6o8j.onrender.com/api
 
 ## 🏗️ Architecture
@@ -208,7 +208,7 @@ Can be deployed on:
 **Sonu Gupta**
 
 GitHub: [https://github.com/Guptsonu22](https://github.com/Guptsonu22)  
-Email: *your-email@example.com*
+Email:sonugupta411093@gmail.com
 
 ## 📄 License
 
